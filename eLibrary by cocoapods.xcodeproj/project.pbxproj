@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		0FC70D3575CBCB3574F49BB8 /* Pods_eLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDC9DB53F1924270866ABAB /* Pods-eLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eLibrary.release.xcconfig"; path = "Target Support Files/Pods-eLibrary/Pods-eLibrary.release.xcconfig"; sourceTree = "<group>"; };
-		A68CF58628CC4DC20032993E /* eLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68CF58628CC4DC20032993E /* eLibrary by coocapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eLibrary by coocapods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A68CF58928CC4DC20032993E /* eLibraryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eLibraryApp.swift; sourceTree = "<group>"; };
 		A68CF58B28CC4DC20032993E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A68CF58D28CC4DC50032993E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,7 +53,6 @@
 				E198CC40D1AB089254A95564 /* Pods-eLibrary.debug.xcconfig */,
 				7FDC9DB53F1924270866ABAB /* Pods-eLibrary.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -70,7 +69,7 @@
 		A68CF58728CC4DC20032993E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A68CF58628CC4DC20032993E /* eLibrary.app */,
+				A68CF58628CC4DC20032993E /* eLibrary by coocapods.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +113,7 @@
 			);
 			name = eLibrary;
 			productName = eLibrary;
-			productReference = A68CF58628CC4DC20032993E /* eLibrary.app */;
+			productReference = A68CF58628CC4DC20032993E /* eLibrary by coocapods.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A68CF58128CC4DC20032993E /* Build configuration list for PBXProject "eLibrary" */;
+			buildConfigurationList = A68CF58128CC4DC20032993E /* Build configuration list for PBXProject "eLibrary by cocoapods" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -354,7 +353,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.eLibrary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "eLibrary by coocapods";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.eLibrary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "eLibrary by coocapods";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -393,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A68CF58128CC4DC20032993E /* Build configuration list for PBXProject "eLibrary" */ = {
+		A68CF58128CC4DC20032993E /* Build configuration list for PBXProject "eLibrary by cocoapods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A68CF59228CC4DC50032993E /* Debug */,
